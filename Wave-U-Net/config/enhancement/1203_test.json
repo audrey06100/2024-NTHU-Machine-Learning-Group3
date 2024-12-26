@@ -1,0 +1,20 @@
+{
+    "model": {
+        "module": "model.unet_basic",
+        "main": "Model",
+        "args": {}
+    },
+    "dataset": {
+        "module": "dataset.waveform_dataset_enhancement",
+        "main": "WaveformDataset",
+        "args": {
+            "dataset": "/content/drive/MyDrive/Wave-U-Net/Datasets/MCV_ESC/inference_testset.txt",
+            "limit": 400,
+            "offset": 0,
+            "sample_length": 16384
+        }
+    },
+    "custom": {
+        "sample_length": 16384
+    }
+}
