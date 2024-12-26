@@ -3,7 +3,7 @@
 This repository contains the code and data used in our final project.
 
 1. Time-Domain U-Net
-- Code and checkpoint are stored in the Wave-U-Net/ folder.
+- The code and checkpoint are stored in the Wave-U-Net/ folder.
 - Based on [Wave-U-Net-for-Speech-Enhancement](https://github.com/haoxiangsnr/Wave-U-Net-for-Speech-Enhancement). Usage instructions can be found in the original repository.
 
 2. Frequency-Domain U-Net
